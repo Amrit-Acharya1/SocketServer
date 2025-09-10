@@ -181,7 +181,7 @@
         </section>
         <section id="developer" class="developer-info">
             <h2>About the Developer</h2>
-            <p>Hi, I'm Amrit Acharya, a passionate backend developer based in Bharatpur, Chitwan, Nepal. With expertise in PHP, Laravel, JavaScript, and API development, I specialize in building robust and scalable server-side solutions. My focus is on creating real-time applications using socket servers to enable seamless, bidirectional communication.</p>
+            <p>Hi, I'm <a href="https://acharyaamrit.com.np">Amrit Acharya</a>, a passionate backend developer based in Bharatpur, Chitwan, Nepal. With expertise in PHP, Laravel, JavaScript, and API development, I specialize in building robust and scalable server-side solutions. My focus is on creating real-time applications using socket servers to enable seamless, bidirectional communication.</p>
             <p>As a developer at <a href="https://adiratech.com">AdiraTech Pvt. Ltd.</a>, I contribute to innovative projects that drive digital transformation. My goal is to empower developers and businesses with efficient, secure, and high-performance backend systems. Socket Server Hub is a testament to my commitment to advancing real-time communication technologies.</p>
             <ul>
                 <li><strong>Expertise:</strong> PHP, Laravel, JavaScript, Socket Servers, RESTful APIs</li>
