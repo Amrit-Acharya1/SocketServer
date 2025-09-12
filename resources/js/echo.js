@@ -12,3 +12,14 @@ window.Echo = new Echo({
     forceTLS: (import.meta.env.VITE_REVERB_SCHEME ?? 'https') === 'https',
     enabledTransports: ['ws', 'wss'],
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+    if (window.Echo) {
+        window.Echo.channel("test")
+            .listen("SocketEvent", (event) => {
+                console.log("Received event:", event);
+            });
+    } else {
+        console.error("Echo is not defined yet!");
+    }
+});

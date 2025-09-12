@@ -18,6 +18,7 @@ class SocketEvent implements ShouldBroadcastNow
     /**
      * Create a new event instance.
      */
+    public string $message = "helo there";
     public function __construct()
     {
         //
@@ -31,7 +32,7 @@ class SocketEvent implements ShouldBroadcastNow
     public function broadcastOn(): array
     {
         return [
-            new Channel('channel-name'),
+            new Channel('test'),
         ];
     }
 }

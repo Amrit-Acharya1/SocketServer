@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Socket Server Hub - Amrit Acharya</title>
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
     <style>
         * {
             box-sizing: border-box;
